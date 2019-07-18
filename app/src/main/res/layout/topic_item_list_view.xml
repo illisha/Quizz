@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:layout_marginBottom="@dimen/dimen_16x"
+        app:cardCornerRadius="@dimen/dimen_8x"
+        app:cardElevation="@dimen/dimen_8x">
+
+        <RelativeLayout
+            android:id="@+id/topicRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dimen_32x">
+
+            <TextView
+                android:id="@+id/topicTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/topicImageView"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_32x"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/topicImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/topics_list_icon" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

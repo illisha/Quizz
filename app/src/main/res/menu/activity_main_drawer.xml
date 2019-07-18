@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_topics"
+            android:icon="@drawable/menu_topics"
+            android:title="@string/menu_topics" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/menu_friends"
+            android:title="@string/menu_friends" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/menu_messages"
+            android:title="@string/menu_messages" />
+        <item
+            android:id="@+id/nav_achievements"
+            android:icon="@drawable/menu_achievements"
+            android:title="@string/menu_achievements" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/menu_settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/menu_logout"
+            android:title="@string/menu_logout" />
+
+    </group>
+
+
+</menu>
